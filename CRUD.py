@@ -1,9 +1,5 @@
 import mysql.connector
 
-
-
-
-
 #Function to create Table
 def studentData():
         con = mysql.connector.connect(host="localhost",user="root",passwd="atalji",database="project",auth_plugin='mysql_native_password')
